@@ -15,6 +15,8 @@
 		79D83315252644AB00D19A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D83313252644AB00D19A0E /* LaunchScreen.storyboard */; };
 		79D83320252644AB00D19A0E /* Project_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8331F252644AB00D19A0E /* Project_10Tests.swift */; };
 		79D8332B252644AB00D19A0E /* Project_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8332A252644AB00D19A0E /* Project_10UITests.swift */; };
+		79D8333C2526472C00D19A0E /* Personcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8333B2526472C00D19A0E /* Personcell.swift */; };
+		79D833412526501100D19A0E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D833402526501100D19A0E /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		79D83326252644AB00D19A0E /* Project 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D8332A252644AB00D19A0E /* Project_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_10UITests.swift; sourceTree = "<group>"; };
 		79D8332C252644AB00D19A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D8333B2526472C00D19A0E /* Personcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personcell.swift; sourceTree = "<group>"; };
+		79D833402526501100D19A0E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				79D83308252644A400D19A0E /* AppDelegate.swift */,
 				79D8330A252644A400D19A0E /* SceneDelegate.swift */,
 				79D8330C252644A400D19A0E /* ViewController.swift */,
+				79D833402526501100D19A0E /* Person.swift */,
 				79D8330E252644A400D19A0E /* Main.storyboard */,
 				79D83311252644AB00D19A0E /* Assets.xcassets */,
 				79D83313252644AB00D19A0E /* LaunchScreen.storyboard */,
 				79D83316252644AB00D19A0E /* Info.plist */,
+				79D8333B2526472C00D19A0E /* Personcell.swift */,
 			);
 			path = "Project 10";
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D833412526501100D19A0E /* Person.swift in Sources */,
 				79D8330D252644A400D19A0E /* ViewController.swift in Sources */,
 				79D83309252644A400D19A0E /* AppDelegate.swift in Sources */,
+				79D8333C2526472C00D19A0E /* Personcell.swift in Sources */,
 				79D8330B252644A400D19A0E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
